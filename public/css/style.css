@@ -1,5 +1,10 @@
-header, .project:not(:last-child) {
+.blog:not(:last-child) {
   border-bottom: 1px solid #ccc;
+}
+
+header {
+  /* border: 9px solid #1C6EA4; */
+  background-color: #1b89bc;
 }
 
 .no-button {
@@ -17,8 +22,67 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-.dollar-amount {
+/* .dollar-amount {
   color: #056605;
   font-weight: bold;
   margin-left: -5px;
+} */
+
+body {
+  /* background-color: #056605; */
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+nav,
+h1,
+a {
+  color: #b7c1c5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 2em;
+}
+
+.blog {
+  background-color: #1b89bc;
+  border: 10 solid black;
+}
+
+.blog:focus p {
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: flex;
+}
+
+h2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  color: #b7c1c5;
+  /* border: 2px solid rgb(228, 231, 231); */
+  /* background: rgb(162, 163, 162); */
+  /* box-shadow: 12px 12px 2px 1px rgb(12, 12, 12); */
+}
+
+.signup-card {
+  border: 10 solid black;
+  background-color: #1b89bc;
+  padding: 2em;
+}
+.login-card {
+  border: 10 solid black;
+  background-color: #1b89bc;
+  padding: 2em;
+}
+
+main header {
+  background-color: #1b89bc;
+  padding: 2em;
+  /* border: 5px solid #1c6ea4; */
+  /* border-radius: 21px; */
+  /* box-shadow: 12px 12px 2px 1px rgb(12, 12, 12); */
+  margin-bottom: 1.5em;
+  color: #b7c1c5;
+}
+
