@@ -48,6 +48,11 @@ a {
   border: 10 solid black;
 }
 
+.dashboard {
+  background-color: #1b89bc;
+  border: 10 solid black;
+}
+
 .blog:focus p {
   background-color: #ccc;
   display: flex;
